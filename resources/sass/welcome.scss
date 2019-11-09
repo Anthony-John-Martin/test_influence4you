@@ -1,0 +1,61 @@
+// Variables
+@import 'variables';
+
+html, body {
+  background-color : #f8fafc;
+  color            : #636b6f;
+  font-family      : 'Nunito', sans-serif;
+  font-weight      : 200;
+  height           : 100vh;
+  margin           : 0;
+}
+
+.content {
+  padding-top : 10vh;
+  text-align  : center;
+}
+
+.title {
+  font-size : 84px;
+}
+
+.links > a {
+  color           : #636b6f;
+  font-size       : 13px;
+  font-weight     : 600;
+  letter-spacing  : .1rem;
+  text-decoration : none;
+  text-transform  : uppercase;
+}
+
+.m-b-md {
+  margin-bottom : 30px;
+}
+
+.btn-outline-pink{
+  color: $pink;
+  border-color: $pink;
+}
+
+.btn-outline-pink:not(:disabled):not(.disabled):active, .btn-outline-pink:not(:disabled):not(.disabled).active, .show > .btn-outline-pink.dropdown-toggle {
+  color            : #fff;
+  background-color : $pink;
+  border-color     : $pink;
+}
+
+.btn-outline-pink:hover {
+  color: #fff;
+  background-color: $pink;
+  border-color: $pink;
+}
+
+.text-pink{
+  color: $pink;
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width : 991.98px) {
+  .title {
+    font-size : 2.25em;
+  }
+}
